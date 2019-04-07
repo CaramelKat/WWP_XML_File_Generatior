@@ -1,9 +1,9 @@
 public class painting {
-    private String content, created_at, size, url;
+    private String format, content, size, url;
 
     public painting(String content, String created_at) {
         this.content = content;
-        this.created_at = created_at;
+        this.format = "tga";
         this.size = "153618";
         this.url = "http://botu";
     }
